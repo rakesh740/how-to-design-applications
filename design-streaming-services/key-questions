@@ -1,0 +1,15 @@
+find out the users? 
+find out all types of data to be streamed - recorded or live 
+find out data types 
+user devices and payment management?
+
+
+data ingestion - data transform - data output 
+
+protocols - RTMP: good on top of reliable connection
+
+why tcp over udp ? udp faster / tcp reliable ordered 
+
+message queue for all the video transformation workers 
+
+matrix: all resolution * all encodings ``

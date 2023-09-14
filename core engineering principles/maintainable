@@ -1,0 +1,21 @@
+
+# Maintainability
+
+It is well known that the majority of the cost of software is not in its initial development, but in its ongoing maintenance—
+
+No one likes to maintain - cost is higher for fixing bugs, keeping its systems operational, investigating failures, adapting it to new platforms, modifying it for new use cases, repaying technical debt, and adding new features.
+
+However, we can and should design software in such a way that it will hopefully minimize pain during maintenance, and thus avoid creating legacy software ourselves. To this end, we will pay particular attention to three design principles for software systems:
+
+
+Operability
+Make it easy for operations teams to keep the system running smoothly.
+
+Simplicity
+Make it easy for new engineers to understand the system, by removing as much complexity as possible from the system.
+
+Evolvability
+Make it easy for engineers to make changes to the system in the future, adapting it for unanticipated use cases as requirements change. Also known as extensibility, modifiability, or plasticity. everything should be plug and play
+
+
+
