@@ -1,0 +1,34 @@
+user experience is highest order
+
+
+low latency 
+must satisfy the type of challenge I want 
+analysis engine - player & game 
+
+
+
+databases satisfying range queries? mysql, postgres
+
+caching for fast matching - what is caching? what are the type of chaches used ?
+cache evictions ?
+shard cache ?
+cache cluster coordinator
+
+memchache vs a redis cluster ?
+
+
+
+
+
+thundering herd problem when having multiple connections and parallel deployment is needed - because of web sockets ? 
+
+why design a chess engine, can you
+- reduce latency
+- reduce bandwidth
+
+
+spectators service 
+- request batching 
+- multiple secondary spectators, 2 primary actors 
+
+
