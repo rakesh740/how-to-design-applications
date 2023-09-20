@@ -1,19 +1,37 @@
 
 # Bengali explaination
 
-I am trying to explain how to design a  chess website in bengali 
-with most of the key words still in english, let's  see how it goes 
+I am trying to explain how to design a  chess website in bengali
+with the key words still in english, let's  see how it goes,
+this is part of my active recalling exercise as I learn system design.
 
 ## important thoughts
 
 - english key words use kore  banglai thougts express korar chesta korchi
-- kotota bangla r kotota english sobdo byabohar korbo setar bhalo misron ber korte hobe 
-- amar 
+- kotota bangla r kotota english sobdo byabohar korbo setar bhalo misron ber korte hobe karon
+ bangla sobdo byabohar engineering e keu kore na r kichu keywords na janle ogulor english sobdo onno keu byabohar korle seta bojha besi kothin hoye jabe tokhon mul uddesso er theke dure sore jaua hobe.
+ ami prothom e amar practice er jonnoi eta k likhe github e upload korbo tar por kichu chena jana lok k share korbo tarpor jodi amar hypothesis vul promanito hoi tay hobe
+
+# mul uddeso ta ki ? eta k bhalo kore boro kore likhe nite hobe jate pore choto kore neua jai r onno kauk bojhanor somoi kono osubidhe na hoi
+
+ekjon manus tar matribhasa tei kotha bole r sei bhasa tei sob theke bhalo bujhte parbe jekono jinis - eta amar hypothesis
+
+engineering er sob theke boro problem hocche kono problem/solution nije bojha ebong oi problem/solution onno k bojhano
+prithibir sobai jodi ektay bhasa te kotha bolto tahole kono osubidhe hoto na kintu jehetu ota noi r ami ekta student er cognitive load komanor chesta korchi jekhane tara english sudu communication er jonno sikhbe engineering sekha ta bangla bhasa tei korte parbe, puro engineering ta ki bangla te sekha osombhob? ajker artificial intelligence r google er uccho level er translation er jug e. keno ekjon k engineering er kothin chinta dhar er upor aro english eksathe sikhte hobe? r sob bhalo bhalo engineering boi gulo kothin english e lekha jegulo bojha r segulo follow kora aro kothin hoye darai. r sudu pora tay jokhon eto kothin otar theke bojha r tar por onno k bojhano ontoto 3x 4x kothin.
+
+## golpo ta ki?
+
+    golpo ta hocche duto lok prithibir jekono jaigai bose chess khelte parbe.
+
+    er jonno ki ki kore platform ta banate hobe jate khela te kono osubidhe na hoi, soja golpo soja uttor dite hobe
 
 # chess website design
 
-ekta chess website design korte hobe, jetay jekono lok ese opponent er sathe chess khelte parbe. 
+    ekta chess website design korte hobe, jetay jekono lok ese opponent er sathe chess khelte parbe. 
 
-ki ki question jigges kora jai / ki ki feature add korte hobe?
+    ki ki question jigges kora jai
 
+    koto jon khelbe eksathe puro platform tay?
+
+    ki ki feature add korte hobe? notun khela suru korar jonno ekta function, ek ekta move korar jonno function? ekta move ek player theke onno player k send korte hobe. nijer khela gulor analysis ekta player korte parbe, khela gulote keu cheating korche ki na setar analysis korte hobe
 
