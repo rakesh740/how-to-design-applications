@@ -56,14 +56,15 @@ correct IP te forward korte parbe bar bar service registry request korte hobe na
 
 gateway ekta reverse proxy er moto:
 
-- jeta client to server connection handle kore 
+- jeta client to server connection handle kore
 - external client request internal server request e convert/translate kore.
 - DDoS attack theke bachai internal system k,
 - spam IP gulo mark kore rate limitting kore
-- IP blocklist kore 
+- IP blocklist kore
 
  /// sob description gulo sobai buhte parbe na kintu ekhon kintu onekei term gulo janlei bujhbe.
 
 ## authentication service
 
-user der password toiri korte hobe tader user id er jonno, ei password store thakbe hashed kore server e. jokhon user login korbe ei user nijer userid r password send korbe jeta authentication service verify korbe. sudu matro authentication er por e user account use korte parbe. ebar problem hocche protita action er jonno ki userid password verify korbo ? kora jai kintu eta ektu costly karon database theke saved password fetch kore r user er send kora password k hash kore compare kora somoy sapekkho, amra time er problem ta storage diye solve korte pari - first bas login korar somoi user er userid er jonno ekta session token create kora jai. oi user oi browser theke joto bar request send korbe tar sathe ei token ta send korbe. ebar sudu ekta cache rakhlei holo gateway te jekhane sudu token match korlei authenticated user . r token match na korle ba token cache e na thaklei user logout hoye jabe. secuirty purpose er jonno token er time to live/ TTL/ expiry time set kore rakhte hobe.
+user der password toiri korte hobe tader user id er jonno, ei password hashed kore server e store thakbe.
+user login korbe -  user nijer userid r password server k pathabe jeta authentication service verify korbe. sudu matro authentication er por e user account use korte parbe. ebar problem hocche protita action er jonno ki userid password verify korbo ? kora jai kintu eta ektu costly karon database theke saved password fetch kore r user er send kora password k hash kore compare kora somoy sapekkho, amra time er problem ta storage diye solve korte pari - first bas login korar somoi user er userid er jonno ekta session token create kora jai. oi user oi browser theke joto bar request send korbe tar sathe ei token ta send korbe. ebar sudu ekta cache rakhlei holo gateway te jekhane sudu token match korlei authenticated user . r token match na korle ba token cache e na thaklei user logout hoye jabe. secuirty purpose er jonno token er time to live/ TTL/ expiry time set kore rakhte hobe.
