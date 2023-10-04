@@ -12,6 +12,8 @@
  6. mail gulo k sothik vabe categorize kora
  7. onno domain er mail recieve kora / onno domain e mail send kora.
 
+ reference `Gmail+text+-+Google+Docs.pdf`
+
 ebar  feature gulo k priority onusare ektar por ekta explain korte hobe.
 
 ## profile toiri kora
@@ -68,3 +70,41 @@ gateway ekta reverse proxy er moto:
 
 user der password toiri korte hobe tader user id er jonno, ei password hashed kore server e store thakbe.
 user login korbe -  user nijer userid r password server k pathabe jeta authentication service verify korbe. sudu matro authentication er por e user account use korte parbe. ebar problem hocche protita action er jonno ki userid password verify korbo ? kora jai kintu eta ektu costly karon database theke saved password fetch kore r user er send kora password k hash kore compare kora somoy sapekkho, amra time er problem ta storage diye solve korte pari - first bas login korar somoi user er userid er jonno ekta session token create kora jai. oi user oi browser theke joto bar request send korbe tar sathe ei token ta send korbe. ebar sudu ekta cache rakhlei holo gateway te jekhane sudu token match korlei authenticated user . r token match na korle ba token cache e na thaklei user logout hoye jabe. secuirty purpose er jonno token er time to live/ TTL/ expiry time set kore rakhte hobe.
+
+## Email sending
+
+user mail create korbe with structure
+
+  ```go
+  type email struct {
+      ID        string
+      sender    string
+      receiver  string
+      Subject   string
+      timestamp time.Time
+      contect   content
+  }
+
+  type content struct {
+    description string
+    attachments []string // array of links
+  }
+  ```
+
+API contract:
+
+```text
+SendEmail(Email email, Attachment[] attachments)
+```
+
+## Spam detector
+
+### message queue
+
+## distributed cache vs global cache
+
+## Attachments
+
+## contacts registry
+
+## search engine
