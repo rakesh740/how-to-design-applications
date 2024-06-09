@@ -63,6 +63,7 @@ gateway ekta reverse proxy er moto:
 - DDoS attack theke bachai internal system k,
 - spam IP gulo mark kore rate limitting kore
 - IP blocklist kore
+- rate  limiting and filtering
 
  /// sob description gulo sobai buhte parbe na kintu ekhon kintu onekei term gulo janlei bujhbe.
 
@@ -99,12 +100,20 @@ SendEmail(Email email, Attachment[] attachments)
 
 ## Spam detector
 
-### message queue
+- eta ekta black box hobe from architecture perspective
 
 ## distributed cache vs global cache
 
+pro and cons of all types of cache handling
+
 ## Attachments
+
+upload the documents to CDN server and add the links the mail metadata  
 
 ## contacts registry
 
 ## search engine
+
+### message queue
+
+send all messages through a message queue to create reverse indicies and contract registry.
