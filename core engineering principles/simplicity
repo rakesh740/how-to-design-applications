@@ -1,19 +1,17 @@
 
-creating a software simple is important
+# creating a software simple is important
 
 - complex system is hard to understand so not reliable
 - hard to add new features
 - hard to change existing code
 - hard to debug
-- hard to test understand by new devs 
+- hard to test understand by new devs
 - hard to test
-- creating a solution SIMPLE will take time short term but save time long term 
+- creating a solution SIMPLE will take time short term but save time long term
 
-
-but I dont know how to create simple solution 
+but I dont know how to create simple solution
 
 common mistakes
+
 - implementing too fast without thinking about future complexity  
 - closely coupling implementation, interwining interdependent objects
-
-
